@@ -1,0 +1,176 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    margin:0;
+    background: #DCEDC8;
+	
+}
+
+.page_margin { 
+   margin-top:30px;
+   margin-bottom:30px;
+   margin-left:90px;
+   margin-right:90px;
+	padding:15px;
+	
+    background-color:white;
+	overflow: auto;
+}	
+
+
+.header_content {
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+}
+
+.header_container {
+	background: rgba(76, 175, 80, 0.3);
+	text-align:center;
+	color:green;
+	margin:0;
+	overflow: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top:10px;
+	margin-bottom:10px;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(76, 175, 80, 0.8);
+}
+
+li {
+    float: left;
+	border-right:2px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #CDDC39;
+}
+
+.active {
+    background-color: green;
+}
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: green;
+    clear: left;
+    text-align: center;
+	margin-top:10px;
+}
+
+.bill_infocontainer {
+position:absolute;
+margin:auto;
+top:400px;
+left:450px;
+width:400px;
+height:350px;
+background-color:rgba(76, 175, 80, 0.4);
+outline: 8px solid white;
+outline-offset: 4px;
+
+}
+
+
+
+.from_container {
+background-color:green;
+color:white;
+padding:10px;
+text-align:center;
+    
+}
+	
+input[type=password], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+	background-color: rgba(76, 175, 80, 0.4);
+	color:white;
+}	
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form_container {
+color:white;
+padding: 20px;
+}
+
+.image1 {
+float:left;
+width:140px;
+height:120px;
+}
+
+.image2 {
+width:100%;
+height:700px; 
+}
+
+::placeholder {
+
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+   
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+   
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
